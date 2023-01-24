@@ -4,5 +4,5 @@ class OperacionesBasicas:
             raise Exception("Oops! Los sumandos deben ser int o float.")
         return sumando1 + sumando2
 
-    def divisiom(self, dividendo, divisor):
-        pass
+    def division(self, dividendo, divisor):
+        return dividendo / divisor
